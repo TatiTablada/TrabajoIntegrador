@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    text-decoration:underline;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 0 5%;
+    overflow: hidden;
+    background-color: rgb(212, 144, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: rgb(212, 144, 178);
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contacto {
+    text-align: center;
+    padding: 15px;
+    word-spacing: 2px;
+}
+
+.contacto a:hover{
+   color: black;
+   background-color: rgb(228, 119, 210);
+    
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+} 
+
+main,
+.galeria,
+.contacto,
+footer {
+    height: 100vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
