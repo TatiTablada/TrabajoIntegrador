@@ -14,43 +14,62 @@
 
         <header>
             <h1>Trabajo integrador Frontend</h1>
-            <nav class="menu">
+            <nav>
                 <ul>
-                    <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="#" target="blank">Main</a></li>
-                    <li><a href="#" target="_blank">Galeria</a></li>
-                    <li><a href="#" target="_blank">Contacto</a></li>
+                    <li><a href="#menu">Home</a></li>
+                    <li><a href="#artículo">Main</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque modi, a quidem error perferendis voluptas labore aliquam esse pariatur, possimus reprehenderit perspiciatis accusamus dolorem, et suscipit eos nam saepe fugiat.
+                Adipisci quas dolor, voluptate corporis unde culpa aperiam illum. Repellat commodi et amet aliquam alias dolores molestias? Explicabo libero deserunt ut, illum minus repudiandae suscipit adipisci repellendus, sequi fugit error!
+                Perferendis autem recusandae ut. Ea quos animi qui sint. Nisi nobis suscipit totam reprehenderit a, deleniti similique. Sed a, ratione amet illo facilis repellendus alias libero molestiae voluptate perferendis quidem.
+                Quae ipsum hic recusandae illo, excepturi mollitia officia quam a molestiae asperiores blanditiis possimus error natus repellat placeat quibusdam aliquam obcaecati quia itaque soluta facere pariatur consequatur amet magnam? Officiis?</p>
+                <img src="https://picsum.photos/500/500" alt="Imagen random">
+
         </header>
 
-            <main>
+            <main id="artículo">
                 <article>
-                <h2>Mi artículo</h2>
-                <img src="https://picsum.photos/600/400" alt="">
+                <h2>Mi artículo bla bla</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Temporibus recusandae magni alias libero animi tempore pariatur officiis nesciunt maxime, 
+                    sed error laborum aliquid incidunt unde dignissimos nihil vero hic placeat!</p>
+               <figure>
+                   <img src="https://picsum.photos/600/400" alt="Imagen random">
+                    </figure> 
                 </article>
             </main>
-                <div class="galeria">
-                    <img src="https://picsum.photos/200/300" alt="">    
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
+                <div class="galeria" id="galeria">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">    
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    <img src="https://picsum.photos/200/300" alt="Imagen random">
+                    
                 </div>
 
-               <div class="contacto">
-                    <h1>Contactos</h1>
-                    <a href="tel:4268576267">Llamanos</a>
-                    <a href="mailto:correonoexistente@gmail.com">Mandanos un mail</a>
+
+               <div id="contacto"></div>
+                   <div class="contacto">
+                       <h1>Contactate con nosotros</h1>
+                       
+                       <form action="mailto:mail@mail.com" method="GET" enctype="text/plain" >
+                           <input name="Fullname" type="text" class="f-input" placeholder="Nombre Completo">     
+                           <input name="email" type="email" class="f-input" placeholder="Correo Electrónico" required title="correonoexistente@gmail.com">  
+                           <textarea name="msg" class="f-input" placeholder="Tu mensaje"></textarea>
+                           <button type="button" value="Send">Enviar</button>
+                        </form>
+                    </div>
                 </div>
 
                 <div class="redes-container">
-
                     <footer>
-                        <h2>Nuestras Redes Sociales</h2>
+                        <h1>Nuestras Redes Sociales</h1>
                         <ul>
                             <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
